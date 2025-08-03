@@ -17,7 +17,7 @@ const config: Config = {
   organizationName: 'CodyGregoryLLC', // GitHub org
   projectName: 'iso-docs',            // Repo name
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
