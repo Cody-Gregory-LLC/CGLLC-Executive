@@ -1,0 +1,51 @@
+.topSection {
+  padding: 1rem;
+  border-bottom: 1px solid #f87171;;
+  background-color: #18181b;
+  margin-bottom: 0;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.97rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #232329;
+  border-radius: 8px;
+  background: #232329;
+  color: #e5e7eb;
+  font-family: 'Inter', 'Segoe UI', 'Arial', sans-serif;
+}
+
+
+.quickNav a {
+  display: block;
+  margin: 0.25rem 0;
+  color: #f87171;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 0.25em 0.75em;
+  transition: background 0.15s, color 0.15s;
+}
+
+.quickNav a:hover {
+  background: #232329;
+  color: #fca5a5;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.quickNav a svg {
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  stroke: currentColor;
+  fill: none;
+  display: inline-block;
+}
+.topSection hr {
+  margin: 0;
+  border-color: #232329;
+}

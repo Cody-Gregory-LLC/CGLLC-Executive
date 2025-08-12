@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-org.github.io', // TODO: Update for production
+  url: 'https://cody-gregory-llc.github.io', // TODO: Update for production
   baseUrl: '/',
 
   organizationName: 'CodyGregoryLLC', // GitHub org
@@ -83,14 +83,14 @@ const config: Config = {
           sidebarId: 'mainSidebar',
           docsPluginId: 'default',
           position: 'left',
-          label: 'ISO 9001',
+          label: 'Docs',
         },
         {
           type: 'docSidebar',
           sidebarId: 'trainingSidebar',
           docsPluginId: 'training',
           position: 'left',
-          label: 'Training',
+          label: 'Systems',
         },
         {
           href: 'https://github.com/CodyGregoryLLC/iso-docs',

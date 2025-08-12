@@ -1,6 +1,6 @@
 ---
 id: index
-title: Department Responsibilities
+title: Overview
 label: Engineering / R&D
 lastUpdated: 2025-08-02
 ---

@@ -115,17 +115,17 @@ const departments = [
   {
     title: 'ADMIN',
     description: 'Policies, records, and compliance for administration.',
-    link: '/docs/admin/index',
+    link: '/docs/admin',
   },
   {
     title: 'ENGINEERING',
     description: 'Design, development, and technical documentation.',
-    link: '/docs/engineering/index',
+    link: '/docs/engineering',
   },
   {
     title: 'OPERATIONS',
     description: 'Production, process, and operational excellence.',
-    link: '/docs/operations/index',
+    link: '/docs/operations',
   },
   {
     title: 'ORIENTATION',
@@ -135,7 +135,7 @@ const departments = [
   {
     title: 'R&D',
     description: 'Research and development initiatives and records.',
-    link: '/docs/engineering/8.3',
+    link: '/docs/engineering',
   },
 ];
 

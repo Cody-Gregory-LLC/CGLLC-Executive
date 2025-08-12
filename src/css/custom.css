@@ -67,3 +67,101 @@ body, html, button, input, textarea, select {
   color: #fca5a5 !important; /* lighter red on hover */
   text-decoration: underline;
 }
+
+/* Sidebar styling inspired by Expo Docs */
+.theme-doc-sidebar-container {
+  background: #18181b !important;
+  border-right: 1px solid #232329 !important;
+  box-shadow: 0 0 0 1px #232329;
+  min-width: 260px;
+  max-width: 320px;
+}
+
+/* Sidebar links */
+.menu__link {
+  color: #e5e7eb !important;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  margin: 2px 0;
+  transition: background 0.15s, color 0.15s;
+}
+
+/* Active link */
+.menu__link--active,
+.menu__link--active:not(.menu__link--sublist) {
+  background: #232329 !important;
+  color: #f87171 !important;
+  font-weight: 700;
+  box-shadow: none !important;
+}
+
+/* Hover effect */
+.menu__link:hover {
+  background: #232329 !important;
+  color: #f87171 !important;
+}
+
+/* Section titles */
+.menu__list-item-collapsible > .menu__link {
+  font-size: 1.05em;
+  font-weight: 700;
+  color: #f87171 !important;
+  background: transparent !important;
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+/* Remove default bullets and spacing */
+.menu__list {
+  padding-left: 0 !important;
+}
+.menu__list-item {
+  margin: 0 !important;
+}
+
+/* Add subtle divider between categories */
+.menu__list:not(:last-child) {
+  border-bottom: 1px solid #232329;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* Indent sub-items in the sidebar */
+.menu__list .menu__list {
+  padding-left: 1.25em !important;
+}
+
+/* Make sub-items slightly smaller and lighter */
+.menu__list .menu__list .menu__link {
+  font-size: 0.97em;
+  font-weight: 400;
+  color: #bdbdbd !important;
+  background: none !important;
+  position: relative;
+  padding-left: 1.5em; /* space for dot if active */
+}
+
+/* Selected menu item */
+.menu__list .menu__list .menu__link--active {
+  font-weight: 400;
+  text-decoration: underline;
+   text-decoration-color:  #f87171;
+   text-underline-offset: 0.25em;
+}
+
+.menu__list .menu__list .menu__link--active::before {
+  content: '>';
+  display: inline-block;
+  position: absolute;
+  left: 0.2em;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #f87171;
+  background: none;
+  width: 1em;
+  height: 1em;
+}
